@@ -34,6 +34,8 @@ cacheSolve <- function(x, ...) {
   inv
 }
 
+## Testing
+
 funs <- makeCacheMatrix()
 funs$set(matrix(1:4, 2))
 funs$get()
